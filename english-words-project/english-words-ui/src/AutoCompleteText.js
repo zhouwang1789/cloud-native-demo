@@ -14,7 +14,7 @@ export default class AutoCompleteText extends React.Component {
     onTextChanged = (e) => {
         const value = e.target.value;
         if (value.length > 0) {
-            const url = "http://backend:8080/words/" + value;
+            const url = "http://host.docker.internal:8080/words/" + value;
             fetch(url,
                 {
                     method: "GET",
