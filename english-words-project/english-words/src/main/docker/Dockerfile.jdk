@@ -1,0 +1,10 @@
+FROM openjdk:11
+
+WORKDIR /app
+
+COPY target/lib /app/lib/
+COPY target/*-runner.jar /app/app.jar
+
+EXPOSE 8080
+
+ENTRYPOINT [ "java","-Xmx1g","-jar","app.jar"]

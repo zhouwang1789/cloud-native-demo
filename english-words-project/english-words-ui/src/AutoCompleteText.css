@@ -1,0 +1,23 @@
+.AutoCompleteText {
+    width: 48%;
+}
+
+.AutoCompleteText input {
+    margin-left: 30%;
+}
+
+.AutoCompleteText ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 50%;
+}
+
+/*.AutoCompleteText ul::before {*/
+/*    content: "";*/
+/*}*/
+
+.AutoCompleteText li {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 50%;
+}
